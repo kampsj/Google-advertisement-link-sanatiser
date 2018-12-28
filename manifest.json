@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Google advertisement link sanatiser",
+    "version": "0.01",
+  
+    "description": "Sanatises the sponsored links on the Google homepage. Useful if a Pi-hole, or similar, is blokking the 'googleadservices' domain.",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "adservicessanatiser@ikwiljebaby.nl"
+      }
+    },
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.googleadservices.com/*"],
+        "js": ["url_sanatiser.js"]
+      }
+    ]
+  
+  }
+  
