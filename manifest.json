@@ -6,7 +6,7 @@
     "description": "Sanatises the sponsored links on the Google homepage. Useful if a Pi-hole, or similar, is blokking the 'googleadservices' domain.",
     "browser_specific_settings": {
       "gecko": {
-        "id": "sadservicessanatiser@ikwiljebaby.nl"
+        "id": "adservicessanatiser@ikwiljebaby.nl"
       }
     },
     "icons": {
