@@ -10,12 +10,12 @@
       }
     },
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "icons/ga-48.png"
     },
   
     "content_scripts": [
       {
-        "matches": ["*://*.googleadservices.com/*"],
+        "matches": ["*://*.google.*"],
         "js": ["url_sanatiser.js"]
       }
     ]
